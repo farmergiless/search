@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <link rel="stylesheet" href="search.css">
+        <style>
+
+            input[type=text] {
+                margin:3px;
+                position:sticky;
+                left:300px;
+                background-image:none;
+                border-radius: 0;
+                height:10px;
+
+
+            }
+
+            input:focus {
+                border:3px solid LightBlue;
+
+
+            }
+        </style>
+    </head>
+    <body>
+        <p style="text-align:right;">
+            <a class="upperlinks" href="index.html">Google Search</a>
+        </p>
+        <h1 style="text-align:center; color:Tomato;">
+            Advanced Search
+        </h1>
+        Find pages with...
+        <ul style="height:500px;">
+            <li><br>
+                <form action="https://www.google.com/search" id="form1">
+                <p style="display:inline;">
+                    all these words:
+                </p>
+                    <input type="text" id="as_q" name="as_q">
+                    <input type="submit" style="margin-left:-9999px;">
+                </form>
+            </li>
+            <li><br>
+                <p style="display:inline;">
+                    this exact word or phrase:
+                </p>
+                <input id="as_epq" name="as_epq" type="text" form="form1">
+            </li>
+            <li><br>
+                <p style="display:inline;">
+                    any of these words:
+                </p>
+                <input id="as_oq" name="as_oq" type="text" form="form1">
+            </li>
+            <li><br>
+                <p style="display:inline;">
+                    none of these words:
+                </p>
+                <input id="as_eq" name="as_eq" type="text" form="form1">
+            </li>
+        </ul>
+    </body>
+</html>

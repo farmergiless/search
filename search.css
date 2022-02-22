@@ -1,0 +1,71 @@
+
+#sea {
+    text-align:center;
+
+
+
+}
+
+input[type=text]{
+    margin-top:20em;
+    width:50em;
+    height:2em;
+    padding:5px 5px;
+    border:5px solid rgb(233,234,244) ;
+    border-radius:15px;
+    outline:none;
+    background-image:url("search.png");
+    background-position:10px 10px;
+    background-repeat:no-repeat;
+    padding-left:35px;
+}
+
+
+input[type=submit] {
+
+    background-color:WhiteSmoke;
+    font-family:Arial;
+    border-style:none;
+    font-size:15px;
+    padding:10px;
+
+
+}
+
+input[type=submit]:hover {
+
+    border:2px solid rgb(220,220,240);
+
+
+}
+
+li {
+    display:inline;
+    margin:0px 5px;
+
+}
+
+.upperlinks:visited, .upperlinks:link {
+
+    text-decoration: none;
+    font-family: Arial;
+    color:rgb(0,50,0);
+    font-size:15px;
+    font-weight:400;
+
+}
+
+.upperlinks:hover {
+
+    text-decoration:underline;
+    color:green;
+}
+
+
+p {
+    font-family:arial;
+    font-size:13px;
+    margin:15px;
+
+
+}
